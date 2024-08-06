@@ -1,0 +1,62 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+ .container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+ }
+.card{
+    width: 340px;
+    height: 550px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    
+    text-align: center;
+    margin-bottom: 0;
+    font-family:  "Inter", sans-serif;
+    font-size: 14px;
+}
+
+
+@media(max-width:375px){
+    .card{
+        width: 300px;
+        
+    }
+}
+.avatarimg{
+    border-radius: 50%;
+    width: 24%;
+    display: block;
+    margin: auto;
+    margin-top: 33px;
+}
+.menu{
+    background-color: hsl(0, 0%, 20%);
+    padding: 12px;
+    width: 250px;
+    border-radius: 5px; 
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+.menu:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+
+  }
+
+h2{ margin-bottom: 0; font-weight: 500;}
+h5{ margin-top: 2%; margin-bottom: 3%;color: hsl(75, 94%, 57%);}
+h6{ font-size: 11px;}
+.menu-p{
+    display: inline-block;
+    margin-top: 0;    
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution  a { color: hsl(228, 45%, 44%); }
