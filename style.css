@@ -14,7 +14,6 @@ body{
     height: 550px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 15px;
-    
     text-align: center;
     margin-bottom: 0;
     font-family:  "Inter", sans-serif;
@@ -28,6 +27,10 @@ body{
         
     }
 }
+
+.avatar{
+    margin-bottom: 10px;
+}
 .avatarimg{
     border-radius: 50%;
     width: 24%;
@@ -38,7 +41,7 @@ body{
 .menu{
     background-color: hsl(0, 0%, 20%);
     padding: 12px;
-    width: 250px;
+    width: 270px;
     border-radius: 5px; 
     margin-bottom: 10px;
     cursor: pointer;
@@ -49,14 +52,17 @@ body{
     color: hsl(0, 0%, 12%);
 
   }
+h1{ margin-bottom: 0; font-weight: 500;}
+h2{ font-size: 14px; margin-bottom: 5%;color: hsl(75, 94%, 57%);}
 
-h2{ margin-bottom: 0; font-weight: 500;}
-h5{ margin-top: 2%; margin-bottom: 3%;color: hsl(75, 94%, 57%);}
-h6{ font-size: 11px;}
 .menu-p{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin-top: 0;    
+    align-items: center;
+    gap: 5px;
 }
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution  a { color: hsl(228, 45%, 44%); }
